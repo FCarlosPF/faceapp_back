@@ -1,0 +1,55 @@
+# Byte-compiled files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Environment variables
+.env
+*.env
+
+# Django-specific files
+db.sqlite3
+*.log
+media/
+staticfiles/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Python virtual environment
+venv/
+env/
+wslvenv/
+
+# Migrations
+*/migrations/__pycache__/
+*/migrations/*.pyc
+*/migrations/*.pyo
+*/migrations/*.pyd
+*/migrations/*.log
+
+# Node.js dependencies (if any frontend is involved)
+node_modules/
+
+# MacOS and Linux system files
+.DS_Store
+*.bak
+Thumbs.db
+
+# Coverage reports
+htmlcov/
+.coverage
+*.cover
+
+# Pytest and testing files
+.tox/
+.pytest_cache/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
